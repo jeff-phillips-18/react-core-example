@@ -22,19 +22,10 @@
     "strict": true,
     "resolveJsonModule": true,
     "paths": {
-      "@app/*": [
-        "src/app/*"
-      ],
       "@assets/*": [
         "node_modules/@patternfly/react-core/dist/styles/assets/*"
-      ],
-      "@favicon/*": [
-        "src/*"
-      ],
-      "@sass/*": [
-        "src/styles/application/*"
       ]
-    },
+    }
   },
   "include": [
     "**/*.ts",

@@ -1,8 +1,3 @@
-/* site.scss */
-.pf-c-alert.pf-m-success {
-  background-color: orange;
-}
-
 .external-link-nav-item {
   display: block;
 
@@ -13,9 +8,6 @@
     .external-link-nav-item__icon {
       display: inline;
     }
-  }
-  &:after {
-    background-color: transparent !important;
   }
 }
 
